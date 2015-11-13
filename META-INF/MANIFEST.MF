@@ -1,0 +1,312 @@
+Manifest-Version: 1.0
+Created-By: 1.6.0_20 (Sun Microsystems Inc.)
+
+Name: res/drawable/rss.png
+SHA1-Digest: ERtp7ax6U8754c+oeBAof63cQ6s=
+
+Name: assets/image_save.jpg
+SHA1-Digest: acVDyWwMdgfLDC4ty/WK4370hQo=
+
+Name: assets/themes/jqt/img/chevron_circle.png
+SHA1-Digest: PmUM5h91wHqijR2/tmHKu7QN90I=
+
+Name: assets/themes/jqt/img/rowhead.png
+SHA1-Digest: WCCHj4Jyx0HSYlUVNZKKiG8c9E4=
+
+Name: assets/cover.html
+SHA1-Digest: oVXPxHa4In+wZbAhj3hQTR8fah8=
+
+Name: res/drawable/next.png
+SHA1-Digest: PxX1oh/YbHBBoSGdEAx/T8PMq3Y=
+
+Name: res/drawable/menu_phone.png
+SHA1-Digest: PUjLOxexxOubJIlu2MGm3dzBCUE=
+
+Name: assets/image_credit.jpg
+SHA1-Digest: T/n156kK0M2ditRHy96L6kowV6M=
+
+Name: res/drawable/menu_toc.png
+SHA1-Digest: cR3s/5cJSxV8/HxhII8P3wN8Xmg=
+
+Name: assets/EULA
+SHA1-Digest: 7vu0HrNXMsuwZe940wgEgcw1cfI=
+
+Name: assets/themes/jqt/img/greenButton.png
+SHA1-Digest: Wi17TJ6iEcVvGNkpuTYeSabbx80=
+
+Name: res/drawable/cover.jpeg
+SHA1-Digest: PUSu/VUs2Z4tRwffJKIAGApQuGI=
+
+Name: res/drawable/menu_quit.png
+SHA1-Digest: clMp5zlklPezqHzQzGrA6waXbyg=
+
+Name: assets/themes/jqt/img/chevron.png
+SHA1-Digest: XgJr9WUdOSgBs6LhJ244luU2FBU=
+
+Name: res/drawable/color_green.png
+SHA1-Digest: Wy7aKNBXYko34LBPfutszh7gLKI=
+
+Name: assets/home.png
+SHA1-Digest: DdYMikTS2lpnx+FwALWu8J2BKmQ=
+
+Name: res/drawable/toc.png
+SHA1-Digest: EpN5pgAV4j/ah63bX8FmZOUipNw=
+
+Name: res/drawable/color_black.png
+SHA1-Digest: bCiK9WSyJ2XuMwIyCw8jPzKYlOU=
+
+Name: assets/themes/jqt/img/srchbutton.png
+SHA1-Digest: D4wcI9HTAry/PRyq5ojKnwafIMk=
+
+Name: assets/themes/jqt/img/toggleOn.png
+SHA1-Digest: JaYt/+QNLqZrJMKdN3WD45WKaaw=
+
+Name: assets/themes/jqt/img/whiteButton.png
+SHA1-Digest: K0Jc3pAsDztdjnssbQrDgbYuOTc=
+
+Name: assets/themes/jqt/img/blueButton.png
+SHA1-Digest: uR1TbkR9ByEp37c1FNsP748diEk=
+
+Name: assets/image_edit.jpg
+SHA1-Digest: azK64PZqn2QWYYbR8vszOURBKOU=
+
+Name: assets/image_delete.jpeg
+SHA1-Digest: PgNBV6rqN2uQPrhGgiC02KWckbM=
+
+Name: res/drawable/menu_bookmark.png
+SHA1-Digest: MFK/5rVAw5aGZQOL1JbSQBcWiNg=
+
+Name: res/drawable/cvr.jpeg
+SHA1-Digest: j8wl4h/ZYS2OAn+MF7v48uYrlxU=
+
+Name: assets/android.css
+SHA1-Digest: TOjBUiaNwDbhxE9VRVK1BJIW4Rc=
+
+Name: res/drawable/background.png
+SHA1-Digest: 0da+0UMPRDARC7Kcep0ZeHV3tpo=
+
+Name: assets/jscss_mycalculator.js
+SHA1-Digest: YpW2AqXpmEYHUJPOenxzXQIMEM4=
+
+Name: assets/title.txt
+SHA1-Digest: CA/obbrjrqKoxrKONT9Jgc10V5Q=
+
+Name: resources.arsc
+SHA1-Digest: V1r2IgLHnwpRZ1gDMd7vw2IYw+g=
+
+Name: res/drawable/menu_web.png
+SHA1-Digest: QlbKTlv4DwCkj/rm1LHQnPKQR5s=
+
+Name: assets/themes/jqt/img/toolbar.png
+SHA1-Digest: KyDc7vnqO6iKzxhykmrqVnXs/40=
+
+Name: AndroidManifest.xml
+SHA1-Digest: Nu0HsrGj2nWbdwobiMkwqrXkPJ4=
+
+Name: assets/image_title.jpg
+SHA1-Digest: 5u/LC+3OgpYXM48MDLk2QFpFYXw=
+
+Name: assets/jqtouch/jquery.1.3.2.min.js
+SHA1-Digest: Pcn3wmQu//RILmjJ2d+HS/mPW8s=
+
+Name: assets/themes/jqt/img/activeButton.png
+SHA1-Digest: Wi17TJ6iEcVvGNkpuTYeSabbx80=
+
+Name: assets/img_video.png
+SHA1-Digest: eO/0KaaVmP8bMoQ5LLh8gXXA2K4=
+
+Name: assets/themes/jqt/img/back_button.png
+SHA1-Digest: 7Cy4kAKspDm7S5HGJiqSHMr998o=
+
+Name: res/drawable/color_brown.png
+SHA1-Digest: Pw7jvPbLDV/KUaNM+j7EuU0XbNQ=
+
+Name: res/drawable/color_white.png
+SHA1-Digest: 31uGZMJzs8LUg4Apaj0gamuwhk4=
+
+Name: res/drawable/ent_home.gif
+SHA1-Digest: hbz6cRFFcWvXjoxnNt68lG0Ywxs=
+
+Name: assets/cover.txt
+SHA1-Digest: b5i38Whd6Jxd1vZxPaYTLJrMoYs=
+
+Name: res/drawable/color_blue.png
+SHA1-Digest: Ige65XiT6XktBLRylkj0RQSriM8=
+
+Name: assets/android.js
+SHA1-Digest: fBnsR8yHh303w1oZBtr9h9+qYA0=
+
+Name: assets/img_audio.png
+SHA1-Digest: mtyytsJ3NTpHLuFTHq6WZUS2ipk=
+
+Name: assets/themes/jqt/img/button.png
+SHA1-Digest: KldATZAcmoGx/HTbFEcCWkXU6uo=
+
+Name: classes.dex
+SHA1-Digest: A9M43qrLyjlAHN1JYMbs7YPcvFQ=
+
+Name: assets/themes/jqt/img/back_button_clicked.png
+SHA1-Digest: 0/y/xoNenHar6J18fbNFo8Xw9XY=
+
+Name: assets/image_question.jpg
+SHA1-Digest: WAqVZ5Soa4onEAcIsF/XOVa1HYQ=
+
+Name: assets/jqtouch/jqtouch.js
+SHA1-Digest: oJXpeojWSWiuJycuYWuzDndpeEQ=
+
+Name: assets/page2.html
+SHA1-Digest: 4lvmpTA3Ah5pCNdiG/QPOOMEHMo=
+
+Name: assets/themes/jqt/img/grayButton.png
+SHA1-Digest: ixIzRu7aFPeUeKlSPAArncURrDo=
+
+Name: assets/image_default.jpg
+SHA1-Digest: 5F0DUMaQC/J2tYHFoGdp73o2Txw=
+
+Name: assets/toc.txt
+SHA1-Digest: wihcgGzryVph2uRn1hTtuoq2uVY=
+
+Name: assets/themes/jqt/img/loading.gif
+SHA1-Digest: aYngBZeH0YqCiecvQa3E8O/Kcyw=
+
+Name: assets/jscss_confirm.js
+SHA1-Digest: 4ejuqykejm9xBuEHLjPVJTXZrCY=
+
+Name: assets/image_logo.jpg
+SHA1-Digest: pLOfwWJotFdBGIEclndfh//+X0U=
+
+Name: assets/img_mail.png
+SHA1-Digest: jxfIpMP4YAb2puH0g/jy1gy2Lhw=
+
+Name: res/drawable/icon.jpeg
+SHA1-Digest: sw8Wt//WJaOur0eUAUKuMxmRRWw=
+
+Name: res/anim/push_right_out.xml
+SHA1-Digest: DAo9KSN9XlkruCSDpXCJWa+V9ns=
+
+Name: res/layout/scrolltext.xml
+SHA1-Digest: UMMrKpK9SjvCiLagtp5aNSZdGTs=
+
+Name: assets/image_clear.jpg
+SHA1-Digest: E5plwtu8t796VzeEMVYFKse9l2k=
+
+Name: assets/supercalc.js
+SHA1-Digest: MZyXkbNL9oC25SvTPuYga0EOOXQ=
+
+Name: res/drawable/book.png
+SHA1-Digest: yNzf6bfbnx0XbR6XSSRzHYTD66I=
+
+Name: res/drawable/menu_about.png
+SHA1-Digest: IR6W4mOY+iNtGZRCwdSNfBD/iAE=
+
+Name: res/anim/push_left_out.xml
+SHA1-Digest: bLThrUas2FyUpX4ssDTZpjza+NE=
+
+Name: assets/themes/jqt/img/redButton.png
+SHA1-Digest: +qPgQZ/b/Q99FcLCWg0akW5ID+U=
+
+Name: assets/image_home.jpg
+SHA1-Digest: ewQTzcRwKJGG2crJPk/z59OAKk4=
+
+Name: assets/jscss_confirm.css
+SHA1-Digest: 42wtVlW6eXWcindkkKpe2B06WGE=
+
+Name: res/layout/main.xml
+SHA1-Digest: xWcQY/5BboATgzyBPijEeI6/9d0=
+
+Name: assets/image_view.jpg
+SHA1-Digest: dLjtYnX9CemMGpMk4m8RloMWwuE=
+
+Name: res/drawable/ent_web.gif
+SHA1-Digest: qnBsXf8Rz0mzGWtMUCHmSsNdlTQ=
+
+Name: assets/jqtouch/jqtouch.transitions.js
+SHA1-Digest: 2FfnURnRB/U2n7t2RGPvly/Bb0w=
+
+Name: res/anim/push_right_in.xml
+SHA1-Digest: MQ4sa+Yg815WoG6MbhQlz0yGpPE=
+
+Name: res/drawable/menu_prefs.png
+SHA1-Digest: MFK/5rVAw5aGZQOL1JbSQBcWiNg=
+
+Name: assets/image_personal.jpg
+SHA1-Digest: VfijfchqJPV3vKMwH3Vj9KwAMlI=
+
+Name: assets/jqtouch/jqtouch.css
+SHA1-Digest: M3Sm67EpfU0i3T0vwu5CP3XtV+A=
+
+Name: assets/image_norm.jpg
+SHA1-Digest: 0c5meX1664wRjJ8kz+9r9YVGY/U=
+
+Name: res/drawable/prev.png
+SHA1-Digest: sJsLY9if7JTw/4h14Fea3mfbNI0=
+
+Name: assets/themes/jqt/img/toggle.png
+SHA1-Digest: n0fOaV14DeP1QGDCOHRqcwQRNT0=
+
+Name: res/drawable/menu_cover.png
+SHA1-Digest: vGo3gLAoH5wM7NnfxQtydQUJyE4=
+
+Name: res/layout/listitem.xml
+SHA1-Digest: 92K/eWscDPLOv61gutLq1ToiMqY=
+
+Name: res/drawable/color_red.png
+SHA1-Digest: 7jrNX6OnyR9OSgVPbOkWYuJ+nyw=
+
+Name: com/adwhirl/assets/ad_frame.gif
+SHA1-Digest: AACcaGyMNbP2a2g0wfiNMAQvyOU=
+
+Name: assets/image_calculator.jpg
+SHA1-Digest: ORapW/AXFpAzlb6Zud8yht+h/E8=
+
+Name: assets/themes/jqt/theme.css
+SHA1-Digest: 0TTbYSiDUrU8RKSFWWWpHcwFF8g=
+
+Name: assets/cover.jpeg
+SHA1-Digest: PUSu/VUs2Z4tRwffJKIAGApQuGI=
+
+Name: assets/appid.txt
+SHA1-Digest: eh3I7QcNvwkM+dYUhgsEJYg9D8I=
+
+Name: res/drawable/back.png
+SHA1-Digest: rm6tSQR0Zpeesct9Z0OUnwd400M=
+
+Name: assets/image_splash.jpg
+SHA1-Digest: Q3DQN6lAgEOhyFwh8IljrV2nfLs=
+
+Name: res/drawable/blank.png
+SHA1-Digest: P0eJ0XCh2vrA3zKhqGMdpzZcAnM=
+
+Name: res/layout/scrolltoc.xml
+SHA1-Digest: RvaH+ThKeiPkG21jFNjDvNxbFnQ=
+
+Name: res/drawable/color_yellow.png
+SHA1-Digest: V9X/kqtxnOEG3ordq8q9V7gDosQ=
+
+Name: assets/image_library.jpg
+SHA1-Digest: QA/5VAENmVCljCAnBmwGCfzETY4=
+
+Name: assets/image_new.jpg
+SHA1-Digest: RDxdFqmg8iY6sYsQyqYeEtzzGWQ=
+
+Name: res/drawable/ent_toc.png
+SHA1-Digest: cR3s/5cJSxV8/HxhII8P3wN8Xmg=
+
+Name: res/anim/push_left_in.xml
+SHA1-Digest: f4IswDSy8sNyrShCyf78HIwikwA=
+
+Name: assets/themes/jqt/img/on_off.png
+SHA1-Digest: 3h0mn5+Kd3NAT6/Kc72mBblVuCs=
+
+Name: assets/themes/jqt/img/button_clicked.png
+SHA1-Digest: 0fXC5QbyHAKgTYng4nYruKKxWxw=
+
+Name: assets/img_phone.png
+SHA1-Digest: hNnFGSYQrnV5GDybrFhtnvDgAbY=
+
+Name: res/drawable/about.png
+SHA1-Digest: 2/FSrrQIzm96EJ3JdQcYNZrTSXw=
+
+Name: res/drawable/ent_phone.gif
+SHA1-Digest: WY5CtiKsXYOksrHN8Nqthd9Ki2s=
+

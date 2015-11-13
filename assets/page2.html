@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<link type='text/css' rel='stylesheet' media='screen' href='jqtouch/jqtouch.css'>
+<link type='text/css' rel='stylesheet' media='screen' href='themes/jqt/theme.css'>
+<script type='text/javascript' src='jqtouch/jquery.1.3.2.min.js'></script>
+<script type='text/javascript' src='jqtouch/jqtouch.js'></script>
+<script type='text/javascript'>
+var jQT = new $.jQTouch({
+   statusBar: 'black',
+   useFastTouch: true,
+   startupScreen: 'image_splash.jpg',
+   slideSelector: '.slide'
+});
+</script>
+</head><body><div id="jqt">
+	<!-- First Page -->
+	<div id="toc">
+		<div class="toolbar">
+		<h1>XCALC</h1>
+		</div>
+		<br>
+		<div>
+			<h1 style="color: yellow;">Choose Option</h1><br>
+			<ul class="edgetoedge">
+				<li class="arrow"><a href="#library"><img style="width: 35px; height: 35px; vertical-align: middle;" src="image_library.jpg"> &nbsp; Functions library</a></li> 
+				<li class="arrow"><a href="#cal" ontouchend="normalForm();"><img style="width: 35px; height: 35px; vertical-align: middle;" src="image_norm.jpg"> &nbsp; Calculator</a></li>
+				<li class="arrow"><a href="#newform" ontouchend="newPage(); return false;"><img style="width: 35px; height: 35px; vertical-align: middle;" src="image_new.jpg"> &nbsp; Create Formula</a></li>
+				<li class="arrow"><a href="#example"><img style="width: 35px; height: 35px; vertical-align: middle;" src="image_question.jpg"> &nbsp; Tutorial</a></li>
+				<li class="arrow"><a href="#credit"><img style="width: 35px; height: 35px; vertical-align: middle;" src="image_credit.jpg"> &nbsp; Credits </a></li> 
+			</ul>
+		</div>
+	</div>
+	
+	<!--Library Page -->
+	<div id="library">
+		<div class="toolbar">
+		<h1>Library</h1>
+		<a class="button back" href="#">Back</a>
+		</div>
+		<br>
+		<div>
+			<h1 style="color: yellow;">Choose Library<a href="#toc" style="float: right; text-decoration: none;"><img style="width: 50px; height: 50px;" src="image_home.jpg"></a></h1><br><br>
+			<ul class="edgetoedge">
+				<li class="arrow"><a href="#defaultLib"><img style="width: 35px; height: 35px; vertical-align: middle;" src="image_default.jpg"> &nbsp; Built-in Functions</a></li>
+				<li class="arrow"><a href="#build"><img style="width: 35px; height: 35px; vertical-align: middle;" src="image_personal.jpg"> &nbsp; My Functions</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- Default Library --> <!--Some built in functions... Can add more if needed-->
+	<div id="defaultLib">
+		<div class="toolbar">
+		<h1>Built-in</h1>
+		<a class="button back" href="#">Back</a>
+		</div>
+		<div>
+			<ul class="edgetoedge">
+			<li><table style="float: right;">
+			<tbody><tr>
+			<td><a href="#toc" style="text-decoration: none;"><input style="width: 50px; height: 50px; vertical-align: middle;" src="image_home.jpg" type="image"></a></td>
+			<td><a href="#build" style="text-decoration: none;"><input style="width: 50px; height: 50px; vertical-align: middle;" src="image_personal.jpg" value="My Functions" type="image"></a></td></tr></tbody></table></li>
+			<li class="arrow"><a href="#area">Area</a></li>
+			<li class="arrow"><a href="#volume">Volume</a></li>
+			<li class="arrow"><a href="#prob">Probability</a></li>
+			<li class="arrow"><a href="#finance">Finance</a></li>
+			</ul>
+		</div>
+	</div>
+	<!--Area Functions-->
+	<div id="area">	
+		<div class="toolbar">
+		<h1>Area</h1>
+		<a class="button back" href="#">Back</a>
+		</div>
+		<div>
+			<ul id="arealist" class="edgetoegde">
+			<li><table style="float: right;">
+			<tbody><tr>
+			<td><a href="#toc" style="text-decoration: none;"><input style="width: 50px; height: 50px; vertical-align: middle;" src="image_home.jpg" type="image"></a></td>
+			<td><a href="#build" style="text-decoration: none;"><input style="width: 50px; height: 50px; vertical-align: middle;" src="image_personal.jpg" value="My Functions" type="image"></a></td></tr></tbody></table></li>
+			</ul>
+		</div>
+	</div>	
+	<!--Volume Functions-->
+	<div id="volume">
+		<div class="toolbar">
+		<h1>Volume</h1>
+		<a class="button back" href="#">Back</a>
+		</div>
+		<div>
+			<ul id="volumelist" class="edgetoegde">
+			<li><table style="float: right;">
+			<tbody><tr>
+			<td><a href="#toc" style="text-decoration: none;"><input style="width: 50px; height: 50px; vertical-align: middle;" src="image_home.jpg" type="image"></a></td>
+			<td><a href="#build" style="text-decoration: none;"><input style="width: 50px; height: 50px; vertical-align: middle;" src="image_personal.jpg" value="My Functions" type="image"></a></td></tr></tbody></table></li>
+			</ul>
+		</div>
+	</div>
+	<!--Probability Functions-->
+	<div id="prob">
+		<div class="toolbar">
+		<h1>Probability</h1>
+		<a class="button back" href="#">Back</a>
+		</div>
+		<div>
+			<ul id="problist" class="edgetoegde">
+			<li><table style="float: right;">
+			<tbody><tr>
+			<td><a href="#toc" style="text-decoration: none;"><input style="width: 50px; height: 50px; vertical-align: middle;" src="image_home.jpg" type="image"></a></td>
+			<td><a href="#build" style="text-decoration: none;"><input style="width: 50px; height: 50px; vertical-align: middle;" src="image_personal.jpg" value="My Functions" type="image"></a></td></tr></tbody></table></li>
+			</ul>
+		</div>
+	</div>
+	<!--Finance Function-->
+	<div id="finance">
+		<div class="toolbar">
+		<h1>Finance</h1>
+		<a class="button back" href="#">Back</a>
+		</div>
+		<div>
+			<ul id="finlist" class="edgetoegde">
+			<li><table style="float: right;">
+			<tbody><tr>
+			<td><a href="#toc" style="text-decoration: none;"><input style="width: 50px; height: 50px; vertical-align: middle;" src="image_home.jpg" type="image"></a></td>
+			<td><a href="#build" style="text-decoration: none;"><input style="width: 50px; height: 50px; vertical-align: middle;" src="image_personal.jpg" value="My Functions" type="image"></a></td></tr></tbody></table></li>
+			</ul>
+		</div>
+	</div>
+	
+	<!-- Calculator Page -->
+	<div id="cal">
+		<div class="toolbar">
+		<h1>Calculator</h1>
+		<a class="button back" href="#">Back</a>
+		</div>
+		<ul class="edgetoedge">
+		<li><table style="float: right;">
+		<tbody><tr>
+		<td><a href="#toc" style="float: right; text-decoration: none;"><input style="width: 50px; height: 50px; vertical-align: middle;" src="image_home.jpg" type="image"></a></td>
+		<td style="text-align: center;">
+		<input id="normal" style="width: 50px; height: 50px;" src="image_norm.jpg" ontouchend="normalForm();" value="Norm." type="image"></td>
+		<td style="text-align: center;"><a href="#library" style="text-decoration: none;">
+		<input style="width: 50px; height: 50px;" src="image_library.jpg" value="Library" type="image"></a></td>
+		<td style="text-align: center;"><a href="#example" style="text-decoration: none;">
+		<input style="width: 50px; height: 50px;" src="image_question.jpg" value="Eg." type="image"></a></td>
+		</tr>
+		</tbody></table></li>
+		<li><div style="width: 100%;">
+		<div id="f1">
+			<p style="font-style: italic; font-size: 14px; color: yellow;">Please enter your formula here:</p>
+			<div style="background-color: white;">
+			
+<textarea  id="__s1" name="__s1" rows="3" style="background-color: rgb(240, 240, 240); font-family: MS Sans Serif; color: black; font-size: 24px; letter-spacing: 1px; border-width: 0px; overflow: auto;" onkeypress="_keypressed(event)" scrolling="no" wrap="soft"'></textarea>
+</div>
+		</div>
+		<div id="f2">
+			<input id="s1val" value="" type="hidden">
+			<div id="my_form" style="font-size: 16px; color: yellow;"></div>
+			<div><table id="my_fillin" style="width: 100%; padding: 5px;"></table></div>
+		</div></div></li>
+		<li><table style="width: 100%;">
+		<tbody><tr><td style="padding: 5%; width: 30%;"><a href="#newform" style="text-decoration: none;">
+		<input style="width: 50px; height: 50px;" src="image_save.jpg" id="saveCalc" ontouchend="saveCalc();return false;" value="Save" type="image"></a></td>
+		<td style="padding: 5%; width: 30%;">
+		<input style="width: 50px; height: 50px;" src="image_calculator.jpg" id="calc" ontouchend="doCalculate();return false;" value="Calc" type="image">
+		</td><td style="padding: 5%; width: 30%;">
+		<input style="width: 50px; height: 50px;" src="image_clear.jpg" id="CM" value="Clear" ontouchend="clearCM();return false;" type="image">
+		</td></tr></tbody></table>
+		<div>
+			<input onclick="_checkbox()" value="ON" id="__c1" type="checkbox">
+			<input value="V5" onclick="_radio()" name="__r1" id="__r1" type="radio"> 	<!--Degree-->
+			<input checked="checked" value="V6" onclick="_radio()" name="__r1" id="__r2" type="radio"> <!--Radiant-->
+		</div></li>
+		<li><div><input id="results" type="text"></div>
+		<table style="background-color: rgb(255, 255, 204); width: 100%;"><tbody><tr><td style="width: 5%; color: blue; font-size: 12px;">RESULT:</td>
+		<td width="95%"><input readonly="readonly" disabled="disabled" id="answer" style="background-color: rgb(255, 255, 204); color: blue; font-size: 26px; overflow: auto; border-width: 0px;" type="text"></td></tr></tbody></table></li>
+		</ul>
+	</div>
+	
+	<!-- Maintain/Create formula page -->
+	<div id="build">
+		<div class="toolbar">
+		<h1>My Functions</h1>
+		<a class="button back" href="#">Back</a>
+		</div>
+		<ul id="myfunclist" class="edgetoedge">
+		<li>
+		<table style="float: right; padding: 2px;"><tbody><tr>
+		<td><a href="#toc" style="float: right; text-decoration: none;"><input style="width: 50px; height: 50px; vertical-align: middle;" src="image_home.jpg" type="image"></a></td>
+		<td><a href="#newform" style="text-decoration: none;">
+		<input style="width: 50px; height: 50px;" src="image_new.jpg" id="create" ontouchend="newPage();return false;" value="New" type="image"></a></td>
+		<td><a href="#cal" style="text-decoration: none;">
+		<input style="width: 50px; height: 50px;" src="image_norm.jpg" ontouchend="normalForm();return false;" value="Calc" type="image"></a></td>
+		<td><a href="#defaultLib" style="text-decoration: none;">
+		<input style="width: 50px; height: 50px;" src="image_library.jpg" value="Default" type="image"></a></td>
+		<td><a href="#example" style="text-decoration: none;">
+		<input style="width: 50px; height: 50px;" src="image_question.jpg" value="Eg." type="image"></a></td>
+		</tr></tbody></table>
+		</li>
+		</ul>
+	</div>
+	
+	<!-- Create new from page -->
+	<div id="newform">
+		<div class="toolbar">
+		<h1>Create/Edit</h1>
+		<a class="button back" href="#">Back</a>
+		</div>
+		<ul class="edgetoegde">
+		<li><table style="float: right;"><tbody><tr>
+			<td><a href="#toc" style="float: right; text-decoration: none;"><input style="width: 50px; height: 50px; vertical-align: middle;" src="image_home.jpg" type="image"></a></td>
+			<td><a href="#library" style="text-decoration: none;">
+			<input style="width: 50px; height: 50px;" src="image_library.jpg" value="Library" type="image"></a></td>
+			<td><a href="#cal" style="text-decoration: none;">
+			<input id="calculator" style="width: 50px; height: 50px;" src="image_norm.jpg" value="Calc" type="image"></a></td>
+			<td><a href="#example" style="text-decoration: none;">
+			<input style="width: 50px; height: 50px;" src="image_question.jpg" value="Eg." type="image"></a></td>
+		</tr></tbody></table></li>
+		<li>
+		<h3 style="font-style: italic; font-weight: bold; color: yellow;">Name</h3>
+		<div style="width: 100%; background-color: white;"><input size="100%" id="name" style="font-size: 24px; color: black;" onkeyup="validateName(event);" value="" type="text"></div>
+		<div id="error"><h3 style="font-style: italic; font-size: 14px; color: yellow;"> Name should only contain alphebtical and numerical character</h3></div>
+		</li>
+		<li>
+		<h3 style="font-style: italic; font-weight: bold; color: yellow;">Description</h3>
+			<div style="width: 100%; background-color: white;"><input size="100%" id="description" style="font-size: 24px; color: black;" value="" type="text"></div>
+		</li>
+		<li>
+		<h3 style="font-style: italic; font-weight: bold; color: yellow;">Formula</h3>
+			<div style="width: 100%;">
+			
+<textarea  id="formula" cols="80" rows="3" style="background-color: rgb(240, 240, 240); font-family: MS Sans Serif; color: black; font-size: 24px; letter-spacing: 1px; border-width: 0px; overflow: auto;" scrolling="no" wrap="soft"'></textarea>
+</div>
+		</li>
+		<li>
+		<table style="">
+		<tbody><tr><td style="padding: 5px;" id="save">
+		<input style="width: 130px; float: right;" ontouchend="saveData(1);" value="Save" type="submit"></td> <!--Saving new Data-->
+		<td style="padding: 5px;" id="saveEdit">
+		<input style="width: 130px; float: right;" ontouchend="saveEdit();" value="Save" type="submit"></td> <!--Saving Editing Data-->
+		<td><a href="#build" style="text-decoration: none;"><input id="cancel" style="width: 130px; float: left;" value="Cancel" type="submit"></a>
+		</td></tr></tbody></table></li>
+		</ul>
+	</div>
+	
+	<!-- Example Page -->
+	<div id="example">
+		<div class="toolbar">
+		<h1>Example</h1>
+		<a class="button back" href="#">Back</a>
+		</div>
+		<div>
+			<ul class="edgetoedge">
+			<li><a href="#toc" style="float: right; text-decoration: none;"><input style="width: 50px; height: 50px; vertical-align: middle;" src="image_home.jpg" type="image"></a></li>
+			<li class="arrow"><a href="#ex1">Pre-defined funcs and values</a></li>
+			<li class="arrow"><a href="#ex2">Usage tips</a></li>
+			</ul>
+		</div>
+	</div>
+	
+	<div id="ex1">
+		<div class="toolbar">
+		<h1>Funcs &amp; Values</h1>
+		<a class="button back" href="#">Back</a>
+		</div>
+		<div>
+			<ul class="edgetoedge">
+			<li><table style="float: right;"><tbody><tr><td><a href="#toc" style="float: right; text-decoration: none;"><input style="width: 50px; height: 50px; vertical-align: middle;" src="image_home.jpg" type="image"></a></td><td><a href="#example" style="float: right; text-decoration: none;"><input style="width: 50px; height: 50px; vertical-align: middle;" src="image_question.jpg" type="image"></a></td></tr></tbody></table></li>
+			<li style="color: white;">pi = 3.141592653589793</li>
+			<li style="color: white;">e = 2.718281828459045 </li>
+			<li style="color: white;">ran = 0.8003056962479511</li>
+			<li style="color: white;">asin(x)</li>
+			<li style="color: white;">acos(x)</li>
+			<li style="color: white;">atan(x)</li>
+			<li style="color: white;">sin(x)</li>
+			<li style="color: white;">cos(x)</li>
+			<li style="color: white;">tan(x)</li>
+			<li style="color: white;">log(x)</li>
+			<li style="color: white;">log(x,y)</li>
+			<li style="color: white;">poly(x,y)</li>
+			<li style="color: white;">floor(x)</li>
+			</ul>
+		</div>
+	</div>
+	
+	<div id="ex2">
+		<div class="toolbar">
+		<h1>Tips</h1>
+		<a class="button back" href="#">Back</a>
+		</div>
+		<div>
+			<ul class="edgetoedge">
+			<li><table style="float: right;"><tbody><tr><td><a href="#toc" style="float: right; text-decoration: none;"><input style="width: 50px; height: 50px; vertical-align: middle;" src="image_home.jpg" type="image"></a></td><td><a href="#example" style="float: right; text-decoration: none;"><input style="width: 50px; height: 50px; vertical-align: middle;" src="image_question.jpg" type="image"></a></td></tr></tbody></table></li>
+			<li style="color: white;">1. Formula should be defined in such form "c = a + b" or "a + b" where c is the answer we need to find out &amp; "a+b" is actual formula</li>
+			<li style="color: white;">2. The answer display is the calculation of the last formula displayed in the text form. </li>
+			<li style="color: white;"><div> Ex1: &nbsp;&nbsp; <table><tbody><tr><td>s = a + b </td></tr>
+										  <tr><td>b = 4 </td></tr>
+										<tr><td>a = b + 1</td></tr>
+										<tr><td>Ans: a = 5 </td></tr></tbody></table></div></li>
+			<li style="color: white;"><div> Ex2: &nbsp;&nbsp; <table><tbody><tr><td>a = b + 1 </td></tr>
+										  <tr><td>b = 4 </td></tr>
+										<tr><td>s = a + b</td></tr>
+										<tr><td>Ans: s = 9 </td></tr></tbody></table><div></div></div></li>
+			<li style="color: white;">3. Embedding your own function: Suppose you have a function name "funcA" and you want to apply
+				this function in another calculation for "funcB" without redefine the content of "funcA". xCalc can help you! 
+				Simply, add the prefix "my_" before "funcA", it will automatically embed funcA's content in the new formula. </li>
+			<li style="color: white;"><div> Ex3: &nbsp;&nbsp; <table><tbody><tr><td>Predefine in another formula: funcA = a * b </td></tr>
+										  <tr><td>In the new formula,</td></tr><tr><td>funcB = c + my_funcA </td></tr>
+										<tr><td>Then, the actual formula we're calculating is: </td></tr><tr><td>funcB = c + a * b </td></tr>
+										</tbody></table></div></li>
+			<li style="color: white;">4. Create new formula: name and formula fields can't be empty, description field can be either ways. When description field of formula is empty, it will display "n/a" on the message box when you're trying to look for the description </li>
+			<li style="color: white;">5. The "back" button leads you back to the previous page </li>
+									
+			</ul>
+		</div>
+	</div>
+	
+	<!--Credit Page -->
+	<div id="credit">
+		<div class="toolbar">
+		<h1>Credit</h1>
+		<a class="button back" href="#">Back</a>
+		</div>
+		<br>
+		<table style="float: right;"><tbody><tr><td><a href="#toc" style="float: right; text-decoration: none;"><input style="width: 50px; height: 50px; vertical-align: middle;" src="image_home.jpg" type="image"></a></td></tr></tbody></table><br><br><br><br>
+		<div>
+		<center>
+		<div>Parts of this application are contributed by: </div>
+		<div>P.Tsiros (calculation engine)</div>
+		<div>Khanh Dao (android application)</div><br><br><br><br>
+		<div>Copyright © iAppThat 2011</div><br>
+		<div><img style="" src="image_logo.jpg"></div>
+		</center>
+		</div>
+	</div>
+</div>
+
+
+<div id="hiddenimg">
+<img style="width: 48px; height: 48px;" src="image_splash.jpg" title="splash.jpg">
+<img style="width: 48px; height: 48px;" src="image_view.jpg" title="view.jpg">
+<img style="width: 48px; height: 48px;" src="image_edit.jpg" title="edit.jpg">
+<img style="width: 48px; height: 48px;" src="image_delete.jpeg" title="delete.jpeg">
+<img style="width: 48px; height: 48px;" src="image_default.jpg" title="default.jpg">
+<img style="width: 48px; height: 48px;" src="image_personal.jpg" title="personal.jpg">
+<img style="width: 48px; height: 48px;" src="image_clear.jpg" title="clear.jpg">
+<img style="width: 48px; height: 48px;" src="image_library.jpg" title="library.jpg">
+<img style="width: 48px; height: 48px;" src="image_save.jpg" title="save.jpg">
+<img style="width: 48px; height: 48px;" src="image_norm.jpg" title="norm.jpg">
+<img style="width: 48px; height: 48px;" src="image_calculator.jpg" title="calculator.jpg">
+<img style="width: 48px; height: 48px;" src="image_new.jpg" title="new.jpg">
+<img style="width: 48px; height: 48px;" src="image_question.jpg" title="question.jpg">
+<img style="width: 48px; height: 48px;" src="image_credit.jpg" title="credit.jpg">
+<img style="width: 48px; height: 48px;" src="image_logo.jpg" title="logo.jpg">
+<img style="width: 48px; height: 48px;" src="image_title.jpg" title="title.jpg">
+<img style="width: 48px; height: 48px;" src="image_home.jpg" title="home.jpg">
+</div>
+
+<!--Javascript-->
+<center>
+	<style type="text/css">
+	img.center 
+	{   
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width:100%;
+		height:100%;
+	}
+	</style>
+	<script type='text/javascript' src='supercalc.js'></script>
+	<link href='jscss_confirm.css' type='text/css' rel='stylesheet'></link>
+	<script type='text/javascript' src='jscss_confirm.js'></script>
+	<script type='text/javascript' src='jscss_mycalculator.js'></script>
+</center></body></html>
